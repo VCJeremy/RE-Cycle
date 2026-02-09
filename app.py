@@ -24,13 +24,13 @@ st.markdown("""
 <style>
     /* 全局深色主题 */
     .stApp {
-        background-color: #0f172a;
-        color: #e2e8f0;
+        background-color: #000000;
+        color: #ffffff;
     }
     
     /* 侧边栏样式 */
     section[data-testid="stSidebar"] {
-        background-color: #1e293b;
+        background-color: #000000;
         border-right: 1px solid #334155;
     }
     
@@ -47,7 +47,7 @@ st.markdown("""
     
     /* 卡片样式 */
     .metric-card {
-        background-color: #1e293b;
+        background-color: #1a1a1a;
         border-radius: 12px;
         padding: 20px;
         border: 1px solid #334155;
@@ -80,7 +80,7 @@ st.markdown("""
     
     /* 信号灯卡片 */
     .signal-card {
-        background-color: #1e293b;
+        background-color: #1a1a1a;
         border-radius: 12px;
         padding: 16px;
         border: 1px solid #334155;
@@ -152,9 +152,9 @@ st.markdown("""
     
     /* 输入框样式 */
     .stNumberInput > div > div {
-        background-color: #1e293b;
-        border-color: #334155;
-        color: #f1f5f9;
+        background-color: #1a1a1a;
+        border-color: #333333;
+        color: #ffffff;
     }
     
     /* 滑块样式 */
